@@ -10,8 +10,8 @@ PRODUCT_PACKAGES += \
 
 # Libs
 PRODUCT_COPY_FILES += \
-    vendor/samsung/wing-camera/proprietary/system/lib64/libBSD_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libBSD_jni.so \
-    vendor/samsung/wing-camera/proprietary/system/lib64/libBST_DualCalibration_Service.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libBST_DualCalibration_Service.so \
+        vendor/samsung/wing-camera/proprietary/system/lib64/libBSD_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libBSD_jni.so \
+        vendor/samsung/wing-camera/proprietary/system/lib64/libBST_DualCalibration_Service.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libBST_DualCalibration_Service.so \
 	vendor/samsung/wing-camera/proprietary/system/lib64/libBSTAiScene.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libBSTAiScene.so \
 	vendor/samsung/wing-camera/proprietary/system/lib64/libBSTbase_share.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libBSTbase_share.so \
 	vendor/samsung/wing-camera/proprietary/system/lib64/libBSTBeauty.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libBSTBeauty.so \	
