@@ -1,0 +1,28 @@
+// Automatically generated file. DO NOT MODIFY
+//
+
+soong_namespace {
+	imports: [
+	],
+}
+
+android_app_import {
+	name: "SamsSung_Camera",
+	owner: "samsung",
+	apk: "proprietary/system/priv-app/SamsSung_Camera/SamsSung_Camera.apk",
+	preprocessed: true,
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+
+prebuilt_etc_xml {
+	name: "privapp_whitelist_com.sec.android.app.camera.xml",
+	owner: "samsung",
+	src: "proprietary/system/etc/permissions/privapp_whitelist_com.sec.android.app.camera.xml",
+	filename_from_src: true,
+	sub_dir: "permissions",
+}
+
