@@ -5,13 +5,13 @@
 
 # SamSung_Camera App
 PRODUCT_PACKAGES += \
-    SamsSung_Camera \
+    WingCam-N28 \
     privapp_whitelist_com.sec.android.app.camera.xml
 
 # Libs
 PRODUCT_COPY_FILES += \
-        vendor/samsung/wing-camera/proprietary/system/lib64/libBSD_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libBSD_jni.so \
-        vendor/samsung/wing-camera/proprietary/system/lib64/libBST_DualCalibration_Service.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libBST_DualCalibration_Service.so \
+    vendor/samsung/wing-camera/proprietary/system/lib64/libBSD_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libBSD_jni.so \
+    vendor/samsung/wing-camera/proprietary/system/lib64/libBST_DualCalibration_Service.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libBST_DualCalibration_Service.so \
 	vendor/samsung/wing-camera/proprietary/system/lib64/libBSTAiScene.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libBSTAiScene.so \
 	vendor/samsung/wing-camera/proprietary/system/lib64/libBSTbase_share.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libBSTbase_share.so \
 	vendor/samsung/wing-camera/proprietary/system/lib64/libBSTBeauty.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libBSTBeauty.so \	
@@ -47,13 +47,23 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/wing-camera/proprietary/system/lib64/libwingrefocusJni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwingrefocusJni.so \	
 	vendor/samsung/wing-camera/proprietary/system/lib64/libwt_blur.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwt_blur.so \	
 	vendor/samsung/wing-camera/proprietary/system/lib64/libwt_panorama.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwt_panorama.so 
+	vendor/samsung/wing-camera/proprietary/system/lib64/libjpega.camera.samsung.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjpega.camera.samsung.so 
+	vendor/samsung/wing-camera/proprietary/system/lib64/libimagecodec.quram.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimagecodec.quram.so 
+	vendor/samsung/wing-camera/proprietary/system/lib64/libfloatingfeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfloatingfeature.so 
+	vendor/samsung/wing-camera/proprietary/system/lib64/libagifencoder.quram.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libagifencoder.quram.so 
+	vendor/samsung/wing-camera/proprietary/system/lib64/libBarcodeReader.quram.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libBarcodeReader.quram.so 
+	vendor/samsung/wing-camera/proprietary/system/lib64/libexifa.camera.samsung.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libexifa.camera.samsung.so 
+	vendor/samsung/wing-camera/proprietary/system/etc/floating_feature.so:$(TARGET_COPY_OUT_SYSTEM)/etc/floating_feature.so 
+
 
 #Spoof
 PRODUCT_SYSTEM_PROPERTIES += \
 	ro.jdm_dev.manufacturer=samsung \
 	ro.jdm_dev.model=SM-A055F \
 	ro.jdm_dev.name=a05mxx \
-	ro.jdm_dev.device=a05m
+	ro.jdm_dev.device=a05m \
+	ro.csc.country_code=Sri Lanka \
+	ro.csc.countryiso_code=SLK
 
 PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/wing-camera

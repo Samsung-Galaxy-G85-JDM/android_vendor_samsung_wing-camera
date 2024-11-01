@@ -7,9 +7,9 @@ soong_namespace {
 }
 
 android_app_import {
-	name: "SamsSung_Camera",
+	name: "WingCam-N28",
 	owner: "samsung",
-	apk: "proprietary/system/priv-app/SamsSung_Camera/SamsSung_Camera.apk",
+	apk: "proprietary/system/priv-app/WingCam-N28/WingCam-N28.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
