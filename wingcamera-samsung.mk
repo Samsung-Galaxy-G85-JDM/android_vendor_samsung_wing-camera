@@ -54,7 +54,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/wing-camera/proprietary/system/lib64/libagifencoder.quram.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libagifencoder.quram.so \
     vendor/samsung/wing-camera/proprietary/system/lib64/libBarcodeReader.quram.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libBarcodeReader.quram.so \
     vendor/samsung/wing-camera/proprietary/system/lib64/libexifa.camera.samsung.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libexifa.camera.samsung.so \
-    vendor/samsung/wing-camera/proprietary/system/etc/floating_feature.so:$(TARGET_COPY_OUT_SYSTEM)/etc/floating_feature.so
+    vendor/samsung/wing-camera/proprietary/system/etc/floating_feature.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/floating_feature.xml
 
 # Spoof
 PRODUCT_SYSTEM_PROPERTIES += \
