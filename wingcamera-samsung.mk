@@ -5,7 +5,9 @@
 # SamSung_Camera App
 PRODUCT_PACKAGES += \
     WingCam-N28 \
-    privapp_whitelist_com.sec.android.app.camera.xml
+    Sec_CamMediaProvider \
+    privapp_whitelist_com.sec.android.app.camera.xml \
+    privapp-permissions-me.ayra.android.providers.media.xml
 
 # Libs
 PRODUCT_COPY_FILES += \
@@ -59,9 +61,7 @@ PRODUCT_SYSTEM_PROPERTIES += \
     ro.jdm_dev.manufacturer=samsung \
     ro.jdm_dev.model=SM-A055F \
     ro.jdm_dev.name=a05mxx \
-    ro.jdm_dev.device=a05m \
-    ro.csc.country_code=Sri Lanka \
-    ro.csc.countryiso_code=SLK
+    ro.jdm_dev.device=a05m 
 
 PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/wing-camera
