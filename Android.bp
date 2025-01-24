@@ -41,9 +41,9 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "privapp-permissions-me.ayra.android.providers.media.xml,
+	name: "privapp-permissions-me.ayra.android.providers.media.xml",
 	owner: "samsung",
-	src: "proprietary/system/etc/permissions/privapp-permissions-me.ayra.android.providers.media.xml,
+	src: "proprietary/system/etc/permissions/privapp-permissions-me.ayra.android.providers.media.xml",
 	filename_from_src: true,
 	sub_dir: "permissions",
 }
