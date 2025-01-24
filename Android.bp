@@ -11,12 +11,13 @@ android_app_import {
 	owner: "samsung",
 	apk: "proprietary/system/priv-app/WingCam-N28/WingCam-N28.apk",
 	overrides: ["Aperture", "Camera", "Camera2", "GoogleCameraGo", "GCamGOPrebuilt"],
-	preprocessed: true,
 	presigned: true,
+	preprocessed: true,
 	dex_preopt: {
 		enabled: false,
 	},
 	privileged: true,
+	skip_preprocessed_apk_checks: true,
 }
 
 android_app_import {
@@ -29,6 +30,7 @@ android_app_import {
 		enabled: false,
 	},
 	privileged: true,
+    skip_preprocessed_apk_checks: true,
 }
 
 
